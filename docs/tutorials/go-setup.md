@@ -7,13 +7,21 @@
 - Git
 
 ## Part 1: Creating the Repository
-* Step 1: Create local directory and initialize git
+>Step 1: Create local directory and initialize git
 
-(A) Open your terminal or command prompt.
-
-(B) Create a new directory for your project.
+* Open your terminal or command prompt.
+* Create a new directory for your project.
 ```bash
 mkdir go-tutorial
 cd go-tutorial
-
-
+```
+* Initialize a new Git repository:
+```bash
+git init
+```
+* Create a README file
+```bash
+echo "# COMP423 Go Tutorial" > README.md
+git add README.md
+git commit -m "Initial commit with README"
+```
