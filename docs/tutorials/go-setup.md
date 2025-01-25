@@ -1,6 +1,8 @@
 # Setting up a dev container for Go
 * Primary author: [Akshaya Sundar] (https://github.com/sundarak)
 
+* Reviewer: [Lydia](https://github.com/lydiaschneider)
+
 ## Prerequisites:
 - Visual Studio Code
 - Docker
