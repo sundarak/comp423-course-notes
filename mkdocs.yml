@@ -1,7 +1,13 @@
 site_name: COMP423 Course Notes
 theme:
   name: material
-  
+  features:
+    - content.code.copy
+
 markdown_extensions:
-  - pymdownx.highlight  # Enables syntax highlighting for code blocks
-  - pymdownx.admonition # Enables admonitions for call-out boxes
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
