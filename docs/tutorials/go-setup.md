@@ -1,10 +1,10 @@
 # Setting up a dev container for Go
 * Primary author: [Akshaya Sundar] (https://github.com/sundarak)
 
-> **Note:** Some instructions (Parts 1 & 2) directly adapted from Comp 423 Mkdocs Tutorial (Kris Jordan 2025)
+!!! info "Some instructions (Parts 1 & 2) directly adapted from Comp 423 Mkdocs Tutorial (Kris Jordan 2025)"
 
 
-* Reviewer: [Lydia](https://github.com/lydiaschneider)
+* Reviewer: [Lydia Schneider](https://github.com/lydiaschneider)
 
 ## Prerequisites:
 Before we dive in, make sure you have:
@@ -163,7 +163,7 @@ This will create a binary executable file named main.
 ```
 We run the executable just like always, as done in 211.
 
-> **Note:** ``` go run ``` compiles and executes the main package in one step and is best used for quick testing. It does not create an executable file. ``` go build ``` compiles the program into a binary executable. It is similar to Comp 211's gcc subcommand, which creates the a.out file (the default ouput file given by gcc compiler), which is then executed using ./a.out. While we use the gcc subcommand for C programs, ``` build ``` is used for go.
+!!! info "``` go run ``` compiles and executes the main package in one step and is best used for quick testing. It does not create an executable file. ``` go build ``` compiles the program into a binary executable. It is similar to Comp 211's gcc subcommand, which creates the a.out file (the default ouput file given by gcc compiler), which is then executed using ./a.out. While we use the gcc subcommand for C programs, ``` build ``` is used for go."
 
 
 ## Conclusion
