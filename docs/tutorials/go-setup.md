@@ -171,5 +171,3 @@ Congrats! In this Go Tutorial, you created a basic program that outputs "Hello C
 
 
 
-
-This looks good so far!
