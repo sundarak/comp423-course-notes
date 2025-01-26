@@ -59,7 +59,7 @@ git remote add origin https://github.com/<your-username>/go-tutorial.git
 ``` bash
 git push --set-upstream origin main
 ```
-!!! note "``` --set-upstream ``` only needs to be enabled for the initial commit. After this, it is not needed"
+!!! note "``` --set-upstream ``` only needs to be enabled for the initial commit. After this, it is not needed."
 
 * Back in your web browser, refresh your GitHub repository to see that the same commit you made locally has now been pushed to remote. You can use git log locally to see the commit ID and message which should match the ID of the most recent commit on GitHub. This is the result of pushing your changes to your remote repository.
 
@@ -103,7 +103,7 @@ Why is this valuable? In the technology industry, teams often work on complex pr
 
 Reopen the project in the container by pressing Ctrl+Shift+P (or Cmd+Shift+P on Mac), typing "Dev Containers: Reopen in Container," and selecting the option. This may take a few minutes while the image is downloaded and the requirements are installed.
 
-!!! warning "Ensure Docker is running before attempting to reopen"
+!!! warning "Ensure Docker is running before attempting to reopen."
 
 Once your dev container setup completes, close the current terminal tab (trash can), open a new terminal pane within VSCode, and try running:
 
