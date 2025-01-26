@@ -59,6 +59,7 @@ git remote add origin https://github.com/<your-username>/go-tutorial.git
 ``` bash
 git push --set-upstream origin main
 ```
+!!! note "``` --set-upstream ``` only needs to be enabled for the initial commit. After this, it is not needed"
 
 * Back in your web browser, refresh your GitHub repository to see that the same commit you made locally has now been pushed to remote. You can use git log locally to see the commit ID and message which should match the ID of the most recent commit on GitHub. This is the result of pushing your changes to your remote repository.
 
