@@ -164,10 +164,7 @@ We run the executable just like always, as done in 211.
 
 
 ## Conclusion
-Congrats! In this Go Tutorial, you:
-* Created a basic program that outputs "Hello COMP423".
-* Learned how to start from a blank repository and initialize git.
-* Learned how to set up a development container for the Go programming language from scratch. 
+Congrats! In this Go Tutorial, you created a basic program that outputs "Hello COMP423". You also learned how to start from a blank repository and initialize git and how to set up a development container for the Go programming language from scratch.
 
 
 
