@@ -164,6 +164,7 @@ We run the executable just like always, as done in 211.
 !!! info "``` go run ``` compiles and executes the main package in one step and is best used for quick testing. It does not create an executable file. ``` go build ``` compiles the program into a binary executable. It is similar to Comp 211's gcc subcommand, which creates the a.out file (the default ouput file given by gcc compiler), which is then executed using ./a.out. While we use the gcc subcommand for C programs, ``` build ``` is used for go."
 
 ### Step 5: Push final changes to GitHub
+
 * In the terminal,
 ```bash
 git add . 
